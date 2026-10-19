@@ -1,6 +1,0 @@
-name = "clientgate"
-compatibility_date = "2026-10-18"
-
-[assets]
-directory = "."
-not_found_handling = "single-page-application"
