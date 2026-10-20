@@ -1,7 +1,0 @@
-worker.js
-wrangler.toml
-.assetsignore
-README.txt
-clientgate_v2.html
-node_modules
-.git
