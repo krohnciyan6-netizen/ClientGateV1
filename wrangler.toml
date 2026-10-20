@@ -1,0 +1,14 @@
+name = "clientgate-lb"
+main = "src/worker.js"
+compatibility_date = "2024-10-01"
+
+# Free KV namespace – create once:
+#   npx wrangler kv namespace create CLIENTGATE_LB
+# then paste the id below
+[[kv_namespaces]]
+binding = "LB"
+id = "PASTE_KV_NAMESPACE_ID"
+# preview_id = "PASTE_PREVIEW_ID"  # optional
+
+# After deploy, your API URL is:
+#   https://clientgate-lb.<your-subdomain>.workers.dev
